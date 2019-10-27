@@ -274,6 +274,7 @@
     "shelljs": "0.8.3"
   },
   "dependencies": {
+    "@blueprintjs/core": "^3.19.1",
     "@fortawesome/fontawesome-free": "^5.8.1",
     "@hot-loader/react-dom": "^16.10.2",
     "connected-react-router": "6.5.2",
