@@ -12,6 +12,7 @@ import { Switch, Route } from 'react-router-dom';
 import { hot } from 'react-hot-loader/root';
 
 import HomePage from '../HomePage/Loadable';
+import LoginPage from '../LoginPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
 
@@ -19,7 +20,8 @@ const App = () => {
   return (
     <div>
       <Switch>
-        <Route path="/" component={HomePage} />
+        {/* <Route path="/" component={HomePage} /> */}
+        <Route path="/" component={LoginPage} />
       </Switch>
       <GlobalStyle />
     </div>
